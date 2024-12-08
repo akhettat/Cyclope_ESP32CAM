@@ -6,8 +6,8 @@
 
 #include "camera_pins.h"
 
-const char* ssid = "SFR_4E48"; // Remplacez par votre SSID WiFi
-const char* password = "4gtf86trbv3xiz92pvqq"; // Remplacez par votre mot de passe WiFi
+const char* ssid = "****"; // Remplacez par votre SSID WiFi
+const char* password = "****"; // Remplacez par votre mot de passe WiFi
 
 WebServer server(80);
 

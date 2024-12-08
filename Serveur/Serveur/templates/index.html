@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projet CYCLOPE</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Abang&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            text-align: center;
+        }
+        .buttons {
+            margin-bottom: 20px;
+        }
+        .last-photo img {
+            max-width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+            </div>
+            <div class="title">
+                Projet Cyclope
+            </div>
+        </header>
+        <div class="buttons">
+            <a href="/download_photos" download>Télécharger toutes les photos</a>
+            <button onclick="createNewPhotoFolder()">Créer un nouveau dossier de photos</button>
+        </div>
+        <div class="last-photo">
+            <img id="latest-photo" src="/latest_photo" alt="Dernière photo capturée">
+        </div>
+    </div>
+    <script>
+
+        function refreshPhoto() {
+            const img = document.getElementById('latest-photo');
+            img.src = '/latest_photo?' + new Date().getTime(); // Ajoute un paramètre pour éviter la mise en cache
+        }
+
+        setInterval(refreshPhoto, 1000); // Actualise l'image toutes les secondes
+
+        function createNewPhotoFolder() {
+            fetch('/create_new_photo_folder', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => alert(data.message))
+                .catch(error => console.error('Erreur:', error));
+        }
+
+    </script>
+</body>
+</html>

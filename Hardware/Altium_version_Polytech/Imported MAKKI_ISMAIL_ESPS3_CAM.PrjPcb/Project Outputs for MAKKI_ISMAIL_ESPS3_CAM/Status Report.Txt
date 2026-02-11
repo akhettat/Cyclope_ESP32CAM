@@ -1,0 +1,20 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [MAKKI_ISMAIL_ESPS3_CAM.PrjPcb]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Legend_Top.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Paste_Top.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Soldermask_Top.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Copper_Signal_Top.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Copper_Signal_Bot.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Soldermask_Bot.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Paste_Bot.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Legend_Bot.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM_Profile.gbr]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM.EXTREP]
+   Generated File[MAKKI_ISMAIL_ESPS3_CAM.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 9:15:28 AM On 1/28/2026

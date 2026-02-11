@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Hardware",
+    "\\Software",
+    "\\Software\\ESP32Cam",
+    "\\Software\\ESP32Cam\\CameraWebServer3"
   ],
+  "SelectedNode": "\\Software\\ESP32Cam\\CameraWebServer3\\CameraWebServer3.ino",
   "PreviewInSolutionExplorer": false
 }
